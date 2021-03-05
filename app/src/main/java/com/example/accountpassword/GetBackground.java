@@ -21,7 +21,10 @@ public class GetBackground {
     };
 
     public static int getImg(int x){
-        return Img[x%Img.length];
+        return Img[x%size()];
     }
 
+    public static int size(){
+        return Img.length;
+    }
 }

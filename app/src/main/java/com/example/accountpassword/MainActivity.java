@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Random random = new Random();
-        String s = String.valueOf(random.nextInt(13));
+        String s = String.valueOf(random.nextInt(GetBackground.size()));
         switch(v.getId()){
             case R.id.btn_qq:
                 QQ.actionStart(MainActivity.this,s);
