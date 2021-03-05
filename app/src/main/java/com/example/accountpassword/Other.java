@@ -36,7 +36,7 @@ public class Other extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rv.setLayoutManager(layoutManager);
 
-        MsgAdapter adapter = new MsgAdapter(new GetData().getOtherData());
+        MsgAdapter adapter = new MsgAdapter(GetData.getOtherData());
         rv.setAdapter(adapter);
     }
 }

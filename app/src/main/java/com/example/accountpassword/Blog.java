@@ -36,7 +36,7 @@ public class Blog extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rv.setLayoutManager(layoutManager);
 
-        MsgAdapter adapter = new MsgAdapter(new GetData().getBlogData());
+        MsgAdapter adapter = new MsgAdapter(GetData.getBlogData());
         rv.setAdapter(adapter);
     }
 }

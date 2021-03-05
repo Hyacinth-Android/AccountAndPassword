@@ -36,7 +36,7 @@ public class GitHub extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rv.setLayoutManager(layoutManager);
 
-        MsgAdapter adapter = new MsgAdapter(new GetData().getGitHubData());
+        MsgAdapter adapter = new MsgAdapter(GetData.getGitHubData());
         rv.setAdapter(adapter);
     }
 }

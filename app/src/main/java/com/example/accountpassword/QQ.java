@@ -36,7 +36,7 @@ public class QQ extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rv.setLayoutManager(layoutManager);
 
-        MsgAdapter adapter = new MsgAdapter(new GetData().getQQData());
+        MsgAdapter adapter = new MsgAdapter(GetData.getQQData());
         rv.setAdapter(adapter);
     }
 }
