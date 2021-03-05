@@ -16,6 +16,8 @@ public class GetBackground {
             R.drawable.bg_10,
             R.drawable.bg_11,
             R.drawable.bg_12,
+            R.drawable.bg_13,
+            R.drawable.bg_14,
     };
 
     public static int getImg(int x){
